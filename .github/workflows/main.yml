@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latester
 
   steps: 
-  -usesl: actions/checkout@v2
+  -uses: actions/checkout@v2
   -run: pip install proselint
   -run: proselint *.md
